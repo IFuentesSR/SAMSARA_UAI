@@ -9,13 +9,15 @@ Code associated with the publication entitled [Is the change deforestation? Usin
 
 ## About
 
-The scripts correspond to Jupyter Notebooks using Python that can be used to disentangle deforestation from other forest disturbances. The code uses Google Earth Engine functionality to run temporal segmentations on Lansat collections in Mediterranean environments. Various inputs are developed and different algorithms are tested, including a secondary classification using a random forest model. 
+The scripts correspond to Jupyter Notebooks using Python and can be used to disentangle deforestation from other forest disturbances. The code uses Google Earth Engine (GEE) functionality to run temporal segmentations on Lansat collections in Mediterranean environments. Various inputs are developed and different algorithms are tested, including a secondary classification using a random forest model. 
 
 <p align="center">
   <img src="schema2.png" alt="time_series" width="500">
 </p>
 
-Code to get inputs are in *getting_inputs_using_CCDC.ipynb*. The classification, cross-validation, and visualisation are in *Classification_disturbances.ipynb*.
+The code to get inputs is in *getting_inputs_using_CCDC.ipynb*. The classification, cross-validation, and visualisation are in *Classification_disturbances.ipynb*. 
+
+Different algorithms can be obtained using their respective notebooks. PELT and npphen can be obtained by integrating GEE or using other alternatives (datacube). CCDC is implemented in GEE and some functions are included to process their outputs.
 
 <p align="center">
   <img src="img2.png" alt="average" width="800">
