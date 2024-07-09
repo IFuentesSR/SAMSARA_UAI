@@ -12,13 +12,13 @@ Code associated with the publication entitled [Is the change deforestation? Usin
 The scripts correspond to Jupyter Notebooks using Python that can be used to disentangle deforestation from other forest disturbances. The code uses Google Earth Engine functionality to run temporal segmentations on Lansat collections in Mediterranean environments. Various inputs are developed and different algorithms are tested, including a secondary classification using a random forest model. 
 
 <p align="center">
-  <img src="workflow.jpg" alt="time_series" width="500">
+  <img src="schema2.png" alt="time_series" width="500">
 </p>
 
 Code to get inputs are in *getting_inputs_using_CCDC.ipynb*. The classification, cross-validation, and visualisation are in *Classification_disturbances.ipynb*.
 
 <p align="center">
-  <img src="litho.jpg" alt="average" width="800">
+  <img src="img2.png" alt="average" width="800">
 </p>
 
 
